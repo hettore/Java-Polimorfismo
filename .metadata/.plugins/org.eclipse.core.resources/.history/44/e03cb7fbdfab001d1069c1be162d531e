@@ -1,17 +1,18 @@
 
-public class Funcionario {
+public class Gerente {
 
 	private String nome;
 	private String cpf;
 	private double salario;
+	private int senha;
 	
-	public Funcionario() {
+	public Gerente() {
 		
 	}
 	
 	public double getBonificacao() {
 		//Bonificação de 10% em cima do salário
-		return this.salario * 0.1;
+		return this.salario;
 	}
 
 	
@@ -33,5 +34,7 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
+	
 	
 }
